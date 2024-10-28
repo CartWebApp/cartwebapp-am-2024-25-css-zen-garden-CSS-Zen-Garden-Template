@@ -1,1 +1,59 @@
-/* Empty file for template. Remember to edit only this file and not the HTML file */
+/* Empty
+
+
+
+file for template. Remember to edit only this file and not the HTML file */
+
+
+
+#css-zen-garden{
+    background-image: url(mega\ \(1\).png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-size: 50%;
+ background-position: center;
+
+}
+
+
+.page-wrapper{
+    margin-top: 500px;
+    justify-content: space-around;
+    background-color: rgb(202, 170, 124);
+    opacity: 80%;
+    margin-right: 15%;
+    margin-left: 15%;
+    display: flex;
+    padding: 50px;
+    
+    
+}
+
+.sidebar{
+
+    
+    float: right;
+    font-style: italic;
+    background-color:rgb(206, 165, 115);
+    align-items: flex-end;
+    padding:25px;
+
+}
+
+.intro {
+    width: 30%;
+padding: 25px;
+}
+
+.summary{
+    /* display: flex; */
+    flex-direction: row;
+}
+
+#zen-supporting{
+ padding: 2%;
+ border: dotted;
+
+
+
+}
