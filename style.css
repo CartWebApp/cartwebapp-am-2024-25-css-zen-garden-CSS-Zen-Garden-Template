@@ -7,36 +7,39 @@ file for template. Remember to edit only this file and not the HTML file */
 
 
 #css-zen-garden{
+    display: flex;
     background-image: url(mega\ \(1\).png);
- background-repeat: no-repeat;
- background-size: cover;
- background-size: 50%;
- background-position: center;
+   background-position-x: center;
+   background-repeat: no-repeat;
 
 }
 
 
 .page-wrapper{
-    margin-top: 500px;
+
+    margin-top: 1800px;
     justify-content: space-around;
     background-color: rgb(202, 170, 124);
     opacity: 80%;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 25%;
+    margin-left: 25%;
     display: flex;
     padding: 50px;
     
     
 }
-
-.sidebar{
-
-    
+.wrapper{
     float: right;
     font-style: italic;
-    background-color:rgb(206, 165, 115);
+    background-color:rgb(203, 156, 100);
+   
+    
     align-items: flex-end;
     padding:25px;
+
+
+}
+.sidebar{
 
 }
 
@@ -56,4 +59,16 @@ padding: 25px;
 
 
 
+}
+
+a:link {
+    color:aqua;
+}
+
+h3, ::selection{
+    color: blueviolet;
+}
+
+a:visited{
+   color:blue; 
 }
