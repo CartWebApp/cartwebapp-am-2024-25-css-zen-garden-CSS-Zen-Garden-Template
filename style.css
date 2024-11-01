@@ -115,6 +115,15 @@ color: rgb(61, 87, 79);
 }
 
 div+p{
+    background-color: gold;
+    border: 1px solid gray;
+}
 
-    
+.aside ~ ul {
+
+   color: rgb(230, 173, 173);
+  }
+
+a:hover{
+    color: purple;
 }
