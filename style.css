@@ -1,1 +1,129 @@
-/* Empty file for template. Remember to edit only this file and not the HTML file */
+/* Empty
+
+
+
+file for template. Remember to edit only this file and not the HTML file */
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+#css-zen-garden{
+    display: flex;
+    background-image: url(1.jpg);
+   background-position-x: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.page-wrapper{
+background-image: url(mega\ \(1\).png);
+background-position: top;
+
+    justify-content: center;
+    background-color: rgb(202, 170, 124);
+   
+    margin-right: 25%;
+    margin-left: 25%;
+    display: flex;
+    padding: 50px;
+    
+    
+}
+.wrapper{
+    
+  
+
+}
+.sidebar{
+    margin-top: 125%;
+    float: right;
+    font-style: italic;
+    background-color:#CCB595;
+    opacity: 100%;
+  
+    align-items: flex-end;
+    padding:25px;
+}
+.intro {
+    margin-top: 125%;
+    background-color: #CCB595 ;
+    width: 35%;
+padding: 25px;
+}
+
+.main{
+    margin-top: 125%;
+    background-color:#CCB595 ;
+    width: 40%;
+padding: 25px;
+
+}
+
+.summary{
+    /* display: flex; */
+    flex-direction: row;
+}
+
+#zen-supporting{
+ padding: 2%;
+ border: dotted;
+ border-style: dashed;
+
+
+
+}
+
+a:link {
+    color:aqua;
+}
+
+h3, ::selection{
+    color: blueviolet;
+}
+
+a:visited{
+   color:blue; 
+}
+
+p{
+    font-size: large;
+
+}
+
+h1{
+    font-size: larger;
+    
+}
+
+p.intro{
+    color: aqua;
+}
+div,p{
+border: #CCB598;
+border: double;
+}
+
+div p{
+    color: black;
+}
+div>p{
+color: rgb(61, 87, 79);
+}
+
+div+p{
+    background-color: gold;
+    border: 1px solid gray;
+}
+
+.aside ~ ul {
+
+   color: rgb(230, 173, 173);
+  }
+
+a:hover{
+    color: purple;
+}
